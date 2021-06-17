@@ -21,7 +21,31 @@ button{
 }
 
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 40px 20px 20px 20px;
+    font-size: 0;
+    line-height: 45px;
+}
+
+.header > *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo{
+    width: 15%;
+}
+
+.acctions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+
+.navar{
+    width: 15%;
+    text-align: center;
+}
