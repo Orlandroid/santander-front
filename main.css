@@ -5,6 +5,12 @@ body{
 
 li{
     display: inline;
+    padding-left: 25px;
+    color: #025157;
+}
+
+nav{
+    font-family: sans-serif;
 }
 
 b{
@@ -18,6 +24,7 @@ h1,h2,h3,h4,h5,h6{
 button{
     color: #fff;
     background-color: midnightblue;
+    border-radius: 5px;
 }
 
 .header {
@@ -41,11 +48,23 @@ button{
 
 .acctions{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.acctions > li{
+    color: #67b54b;
+}
+
+.acctions > li > button {
+    color: #67b54b;
+}
+
+
 
 .navar{
     width: 15%;
-    text-align: center;
+    text-align: left;    
 }
