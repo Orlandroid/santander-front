@@ -3,6 +3,10 @@ body{
     text-align: center;
 }
 
+li{
+    display: inline;
+}
+
 b{
     font-size: 30px;
 }
@@ -15,3 +19,9 @@ button{
     color: #fff;
     background-color: midnightblue;
 }
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
