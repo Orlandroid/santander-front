@@ -3,6 +3,11 @@ body{
     text-align: center;
 }
 
+.division{
+    margin-top: 50px;
+    column-count: 2;
+}
+
 li{
     display: inline;
     padding-left: 25px;
