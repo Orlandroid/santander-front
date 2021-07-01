@@ -5,6 +5,11 @@ body{
 }
 
 
+.cartas-flex{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+
 :root{
     --verde:#025157;
     --verdelimon:#a1d683;
